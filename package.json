@@ -5,7 +5,7 @@
   "scripts": {
     "start": "npm run compile && webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "npm run compile && gh-pages -d build",
+    "deploy": "npm run compile && gh-pages -d build -b master",
     "check": "eslint src/**/*.ts src/**/*.tsx && gts check",
     "clean": "gts clean",
     "compile": "npm run clean && npm run fix && npm run check && webpack --config webpack.config.js",
