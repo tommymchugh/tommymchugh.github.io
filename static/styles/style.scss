@@ -123,6 +123,41 @@ p.large {
     margin-right: 36px;
 }
 
+.card {
+    &:hover {
+        &:first-child {
+            box-shadow: 0px 1px 20px 8px rgba(0, 0, 0, 0.62) !important;
+        }
+        &:last-child {
+            box-shadow: 0px 1px 20px 8px rgba(0, 0, 0, 0.35) !important;
+        }
+        box-shadow: 0px 1px 20px 8px rgba(0, 0, 0, 0.50) !important;
+        
+    }
+    &:not(:last-child) {
+        margin-right: 35px;
+    }
+    &:first-child {
+        box-shadow: 0px 1px 20px 3px rgba(0, 0, 0, 0.62);
+    }
+    &:last-child {
+        box-shadow: 0px 1px 20px 3px rgba(0, 0, 0, 0.35);
+    }
+
+    img {
+        padding-left: 40px;
+        padding-right: 40px;
+        width: calc(100% - 80px);
+        overflow: hidden;
+        height: fit-content;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
+
 footer {
     flex: 0;
 }

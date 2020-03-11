@@ -23,7 +23,7 @@ editorStylesMap.set(
         background: ${theme.colors.footer};
         width: 100%;
         height: ${theme.heights.footer}px;
-        margin-top: 21px;
+        margin-top: 50px;
         padding-top: 21px;
 
     `;

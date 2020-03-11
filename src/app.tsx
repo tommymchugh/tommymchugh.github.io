@@ -15,6 +15,7 @@ import {Header} from './components/header/header';
 import {Jumbotron} from './components/jumbotron';
 import {Section} from './components/section';
 import {Footer} from './components/footer';
+import {ProjectShowcase} from './components/project_showcase';
 
 /**
  * The main interface to all Bridigital UI components.
@@ -31,7 +32,9 @@ class App extends React.Component {
         <div className="content">
           <Header />
           <Jumbotron />
-          <Section title="Research Initiatives" />
+          <Section title="Research Initiatives">
+            <ProjectShowcase />
+          </Section>
           <Section title="Publications">
             <p className="center">Coming Soon...</p>
           </Section>
