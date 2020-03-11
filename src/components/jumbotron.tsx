@@ -29,14 +29,14 @@ export class Jumbotron extends React.Component {
     return (
       <JumbotronContainer>
         <p className="light large center italic skinny">
+          Learning Sciences and Computer Science
+          <br />
           Undergraduate HCI researcher at
           <span className="northwestern">
             <a href="https://hci.northwestern.edu"> Northwestern University</a>
           </span>
-          <br />
-          designing at the intersection of technology,
-          <br />
-          learning, creativity, and accessibility.
+          .<br />
+          Designing technology for accessibility, learning, and creativity.
         </p>
       </JumbotronContainer>
     );
