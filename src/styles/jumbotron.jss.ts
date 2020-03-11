@@ -22,6 +22,7 @@ editorStylesMap.set(
         width: 100%;
         height: ${theme.heights.jumbotron}px;
         overflow: hidden;
+        position: relative;
         margin-top: -3px;
     `;
   }

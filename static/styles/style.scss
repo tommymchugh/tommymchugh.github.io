@@ -123,6 +123,17 @@ p.large {
     margin-right: 36px;
 }
 
+.jumbo-text {
+    height: fit-content;
+    top: -8px;
+    bottom: 0;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    display: block;
+    width: 100%;
+    position: absolute;
+}
+
 .card {
     &:hover {
         &:first-child {
