@@ -2,14 +2,14 @@
 
 $background-light: #D6DCE8;
 
-$text-color-light: #FDF6EF;
+$text-color-light: #a396c3;
 $text-color-dark: #EEA660;
 $text-color-extra-dark: #282F3F;
-$text-color-northwestern: #8865AF;
+$text-color-northwestern: #715492;
 $text-color-northwestern-dark: #50386C;
 
-$title-color: #C6735E;
-$title-color-secondary: #5B6F92;
+$title-color: #715391;
+$title-color-secondary: #b1c2e2;
 
 @mixin props {
     height: 100%;
@@ -45,6 +45,10 @@ a {
             filter: brightness(1.5);
         }
     }
+}
+
+.highlight {
+    color: #FFFFFF !important;
 }
 
 .skinny {

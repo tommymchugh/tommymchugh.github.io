@@ -31,7 +31,7 @@ class Header extends React.Component {
       <HeaderContainer>
         <Profile />
         <p className="light center">
-          <a href="mailto:mchugh@u.northwestern.edu">
+          <a href="mailto:mchugh@u.northwestern.edu" className="highlight">
             mchugh@u.northwestern.edu
           </a>
         </p>

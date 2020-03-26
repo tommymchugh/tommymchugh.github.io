@@ -39,7 +39,10 @@ class Profile extends React.Component {
   render(): JSX.Element {
     return (
       <ProfileContainer>
-        <ProfilePicture src={profilePic} />
+        <ProfilePicture
+          src={profilePic}
+          alt="Profile Picture of Tommy McHugh"
+        />
         <ProfileTitle>Tommy McHugh</ProfileTitle>
       </ProfileContainer>
     );

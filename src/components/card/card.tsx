@@ -14,6 +14,7 @@ interface CardProps {
   color: string;
   accent: string;
   logo: string;
+  description: string;
 }
 
 // tslint:disable-next-line: variable-name
@@ -43,7 +44,7 @@ export class Card extends React.Component<CardProps> {
         color={this.props.color}
         theme={this.props.accent}
       >
-        <img src={this.props.logo} />
+        <img src={this.props.logo} alt={this.props.description} />
       </CardContainer>
     );
   }

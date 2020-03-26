@@ -31,9 +31,24 @@ export class ProjectShowcase extends React.Component {
   render(): JSX.Element {
     return (
       <CardHolder>
-        <Card color="#282745" accent={v11Accent} logo={v11Logo} />
-        <Card color="#904C77" accent={imAccent} logo={imLogo} />
-        <Card color="#91C0E8" accent={consAccent} logo={consLogo} />
+        <Card
+          color="#282745"
+          accent={v11Accent}
+          logo={v11Logo}
+          description="V11 Accessibility Research"
+        />
+        <Card
+          color="#904C77"
+          accent={imAccent}
+          logo={imLogo}
+          description="Inclusive Music Research"
+        />
+        <Card
+          color="#91C0E8"
+          accent={consAccent}
+          logo={consLogo}
+          description="Constructive Learning Research"
+        />
       </CardHolder>
     );
   }

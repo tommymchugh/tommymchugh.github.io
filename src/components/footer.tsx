@@ -43,10 +43,14 @@ export class Footer extends React.Component {
         <h2 className="invert">Affiliated Organizations</h2>
         <FooterOrgContainer>
           <a href="https://inclusive.northwestern.edu">
-            <OrgImage src={itlLogo} className="spacer" />
+            <OrgImage
+              src={itlLogo}
+              className="spacer"
+              alt="Inclusive Technology Lab"
+            />
           </a>
           <a href="http://dtr.northwestern.edu">
-            <OrgImage src={deltaLogo} />
+            <OrgImage src={deltaLogo} alt="Delta Lab" />
           </a>
         </FooterOrgContainer>
       </FooterContainer>

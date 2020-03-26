@@ -48,7 +48,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: websiteTitle
+      title: websiteTitle,
+      template: 'templates/index.ejs'
     })
   ]
 };
