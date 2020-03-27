@@ -10,6 +10,7 @@ interface CardProps {
     color: string;
     accent: string;
     logo: string;
+    description: string;
 }
 /**
  * The header of the website including information
