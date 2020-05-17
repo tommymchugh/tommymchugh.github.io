@@ -35,6 +35,13 @@ class App extends React.Component {
           <Section title="Research Initiatives">
             <ProjectShowcase />
           </Section>
+          <Section title="News & Events">
+            <p className="center">
+              06/22/20 - Excited that I will be working as a Technical Program
+              Manager Intern at <a href="https://ai.google">Google Brain</a>{' '}
+              during the summer of 2020.
+            </p>
+          </Section>
           <Section title="Publications">
             <p className="center">Coming Soon...</p>
           </Section>

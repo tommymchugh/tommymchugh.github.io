@@ -11,8 +11,8 @@ const theme: Theme = {
   colors: {
     backgroundLight: '#D6DCE8',
     backgroundDark: '#2C3E4D',
-    primaryLight: '#F9E0C9',
-    primary: 'rgb(238, 166, 96)',
+    primaryLight: '#002033',
+    primary: '#001f33',
     primaryDark: 'rgb(238, 166, 96)',
     footer: '#393E58'
   },

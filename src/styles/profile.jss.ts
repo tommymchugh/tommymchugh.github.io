@@ -20,8 +20,8 @@ editorStylesMap.set(
   Component.Container,
   (props?: {}): Style => {
     return `
-      width: 270px;
-      height: 195px;
+      width: fit-content;
+      height: fit-content;
       margin: 37px auto;
       margin-bottom: 3px;
     `;
@@ -32,11 +32,14 @@ editorStylesMap.set(
   Component.Title,
   (props?: {}): Style => {
     return `
-      color: ${theme.colors.primaryLight};
-      text-transform: uppercase;
-      font-weight: 600;
-      text-align: center;
-      width: 100%;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 400;
+        text-align: center;
+        width: fit-content;
+        letter-spacing: 12px;
+        filter: drop-shadow(3px 0px 0px #002033);
+        font-size: 35px;
     `;
   }
 );
@@ -45,9 +48,9 @@ editorStylesMap.set(
   Component.Picture,
   (props?: {}): Style => {
     return `
-      width: 140px;
-      border: 6px solid ${theme.colors.primaryLight};
+      width: 170px;
       border-radius: 100%;
+      box-shadow: 0px 3px 7px 3px #282f3fb3;
       margin: 0 auto;
       margin-bottom: 10px;
       display: block;

@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,600;1,300;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800&display=swap');
 
 $background-light: #D6DCE8;
 
-$text-color-light: #a396c3;
+$text-color-light: #7ca3c3;
 $text-color-dark: #EEA660;
 $text-color-extra-dark: #282F3F;
-$text-color-northwestern: #715492;
+$text-color-northwestern: #927ca8;
 $text-color-northwestern-dark: #50386C;
 
 $title-color: #715391;
@@ -60,14 +60,9 @@ a {
     margin: 0 auto;
 }
 
-.italic {
-    font-style: italic;
-}
-
 .northwestern {
     color: $text-color-northwestern;
-    font-weight: 600;
-    font-style: italic;
+    font-weight: 700 !important;
 
     a {
         &:hover {
@@ -110,9 +105,12 @@ p.light {
 }
 
 p.large {
-    font-size: 24px;
-    line-height: 31px;
-    margin-top: 48px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-size: 22px;
+    max-width: 839px;
 }
 
 #root {

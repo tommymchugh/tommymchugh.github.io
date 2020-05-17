@@ -18,12 +18,14 @@ editorStylesMap.set(
   Component.Container,
   (props?: {}): Style => {
     return `
-        background: ${theme.colors.primary};
-        width: 100%;
-        height: ${theme.heights.jumbotron}px;
         overflow: hidden;
         position: relative;
         margin-top: -3px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 30px;
+        padding-right: 30px;
+        background: ${theme.colors.primary};
     `;
   }
 );

@@ -28,7 +28,7 @@ export class Jumbotron extends React.Component {
   render(): JSX.Element {
     return (
       <JumbotronContainer>
-        <p className="jumbo-text light large center italic skinny">
+        <p className="light large center italic skinny">
           Learning Sciences and Computer Science
           <br />
           Undergraduate HCI researcher at

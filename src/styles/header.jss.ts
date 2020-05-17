@@ -7,7 +7,7 @@
 
 import {theme} from './theme.jss';
 import {Style, StyleContainer, genStyleBuilder} from '../utils/utils';
-import headerBackground from '../../static/images/header_bg.png';
+import headerBackground from '../../static/images/header_bg.jpeg';
 
 export enum Component {
   Container
