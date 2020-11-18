@@ -112,6 +112,19 @@ p {
 .nu {
     font-weight: 600;
     color: rgb(78, 42, 132);
+    transition: opacity .2s;
+}
+
+.nu:hover {
+    opacity: .7;
+}
+
+.google-link {
+    transition: opacity .2s;
+}
+
+.google-link:hover {
+    opacity: .7;
 }
 
 .google-blue {
