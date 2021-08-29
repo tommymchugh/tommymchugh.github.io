@@ -70,7 +70,7 @@ a:hover {
     text-align: center;
 }
 
-.container > .profile-pic {
+.profile-pic {
     height: 350px;
     margin: 0 auto;
     display: block;
