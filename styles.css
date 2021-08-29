@@ -147,6 +147,10 @@ p {
     color: #34a853;
 }
 
+.apple-link {
+    font-weight: 600;
+}
+
 h3 {
     text-align: left;
     font-size: 20px;
